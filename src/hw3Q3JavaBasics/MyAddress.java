@@ -1,3 +1,9 @@
+/* Create --- a package name "hw3Q3JavaBasics" in "HomeWorkCoreJavaJune2021" project.
+ *  Create a Class name "MyAddress".
+ *   Use different types of variable to implement your address in console.
+ *   Type as much as possible. After finish writing the code, paste the code here. */
+
+
 package hw3Q3JavaBasics;
 
 public class MyAddress {
@@ -20,7 +26,7 @@ public class MyAddress {
 		
 
 	}
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		myAddress();
 		
 	}

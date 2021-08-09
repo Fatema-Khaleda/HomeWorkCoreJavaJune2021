@@ -1,3 +1,10 @@
+/*  Create --- a Project name "HomeWorkCoreJavaJune2021",package name "hw1Q2JavaBasics", 
+ * Class name "HelloWorld" and implement what you learn from today.
+ *  Follow what ever I do exactly without copy paste from source code. 
+ *  Type as much as possible. After finish writing the code, paste it here.  */
+
+
+
 package hw1Q2JavaBasics;
 
 public class HelloWorld {
