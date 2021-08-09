@@ -5,6 +5,7 @@ package hw6Q3Inheritance;
 public class Snake extends Reptile {
 
 	public void snakeInfo() {
+		// Implement a method inside the class
 		
 		System.out.println("This method is from Snake Class");
 

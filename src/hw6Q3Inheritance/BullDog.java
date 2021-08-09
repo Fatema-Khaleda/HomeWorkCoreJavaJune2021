@@ -4,6 +4,7 @@ package hw6Q3Inheritance;
 public class BullDog extends Dog {
 	
 	public void bullDogInfo() {
+		// Implement a method inside the class
 		
 		System.out.println("This method is from BullDog Class");
 	}

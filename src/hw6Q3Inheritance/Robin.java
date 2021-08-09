@@ -4,6 +4,7 @@ package hw6Q3Inheritance;
 public class Robin extends Birds{
 	
 	public void narobinInfo () {
+		// Implement a method inside the class
 		
 		System.out.println("This method is from Robin Class");
 		
