@@ -9,51 +9,49 @@
 package hw6Q3Inheritance;
 
 public class TestAnimal {
-	// here Parents class is "Animal".  Animal is Parents class of mammal, reptile, birds
+	// here Parents class is "Animal". Animal is Parents class of mammal, reptile,
+	// birds
 	// mammal, reptile, birds is child class of parents class " Animal"
-	
+
 	// Mammal is parents class Dog. and Dog is child class of Mammal.
 	// Dog is parents class of Bulldog. and bulldog is child class of dog.
-	
+
 	// Reptile is parents class of snake. and snake is child class of Reptile.
 	// snake is parents class of cobra. and cobra is child class of snake.
-	
-	//bird is parents class of robin. and robin is child class of bird.
-	
-	
+
+	// bird is parents class of robin. and robin is child class of bird.
+
 	public static void main(String[] args) {
-		
-		//multiple inheritance is not allowed in Java
+
+		// multiple inheritance is not allowed in Java
 		// classes are instantiated below
-		
+
 		// (a)
 		Animal animal = new Animal();
 		animal.animalInfo();
 		System.out.println("___________________________________");
-		
+
 		// b
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
 		mammal.animalInfo();
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
-		
+
 		// c
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
 		reptile.animalInfo();
-		//Yes. An object Can call other methods if the class is extended
+		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
-		// d 
+		// d
 		Birds birds = new Birds();
 		birds.birdsInfo();
 		birds.animalInfo();
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
 		// e
 		Dog dog = new Dog();
 		dog.dogInfo();
@@ -62,7 +60,6 @@ public class TestAnimal {
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
 		// f
 		Snake snake = new Snake();
 		snake.snakeInfo();
@@ -71,7 +68,6 @@ public class TestAnimal {
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
 		// g
 		Robin robin = new Robin();
 		robin.narobinInfo();
@@ -80,7 +76,6 @@ public class TestAnimal {
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
 		// h
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
@@ -89,7 +84,6 @@ public class TestAnimal {
 		bullDog.animalInfo();
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
-		
 
 		// i
 		Cobra cobra = new Cobra();
@@ -100,8 +94,6 @@ public class TestAnimal {
 		// Yes. An object Can call other methods if the class is extended
 		System.out.println("___________________________________");
 
-		
-		
 	}
 
 }

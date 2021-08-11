@@ -13,10 +13,11 @@ package hw6Q4Abstraction01;
 //Abstract Class created
 public abstract class MedicalSchool {
 
-	public abstract void anatomyLab (); //abstract method
-	
-	public void biochemistryLab() {//non-abstract method
-		System.out.println("This print is from abstract class MedicalSchool and non-abstract method  - biochemistryLab");
+	public abstract void anatomyLab(); // abstract method
+
+	public void biochemistryLab() {// non-abstract method
+		System.out
+				.println("This print is from abstract class MedicalSchool and non-abstract method  - biochemistryLab");
 	}
-	
+
 }

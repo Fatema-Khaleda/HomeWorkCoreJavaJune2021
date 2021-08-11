@@ -20,31 +20,31 @@ package hw6Q4Abstraction01;
 
 //Abstract Class created
 public abstract class NursingSchool {
-	
-	public abstract void hygiene(); //abstract method
-	
-	public void caring() { //non-abstract method
-		
+
+	public abstract void hygiene(); // abstract method
+
+	public void caring() { // non-abstract method
+
 		System.out.println("this comment is from abstract class NursingSchool and non abstract method caring");
-		
-	}
-	
-	public NursingSchool() {//default Constructor
-		
-	}
-	
-	/* Question:
-	1/ how many keywords are used for the inheritance of Abstract Class? 
-	ans: 2 keywords
-	 
-	 2/ Can an Abstract Class inherit other Abstract Class or a regular class or interface? 
-     ans: A abstract class can inherit only one regular class or only one abstract class by extends keyword but can't inherit an Interface by extends keyword 
-    
-     3/ How many inheritances is possible by an Abstract Class?
-     ans: Only one inheritance is possible in abstract class by extends keyword but Implements keyword can inherit more than one interface.
-     */
-		
-	}
-	
 
+	}
 
+	public NursingSchool() {// default Constructor
+
+	}
+
+	/*
+	 * Question: 1/ how many keywords are used for the inheritance of Abstract
+	 * Class? ans: 2 keywords
+	 * 
+	 * 2/ Can an Abstract Class inherit other Abstract Class or a regular class or
+	 * interface? ans: A abstract class can inherit only one regular class or only
+	 * one abstract class by extends keyword but can't inherit an Interface by
+	 * extends keyword
+	 * 
+	 * 3/ How many inheritances is possible by an Abstract Class? ans: Only one
+	 * inheritance is possible in abstract class by extends keyword but Implements
+	 * keyword can inherit more than one interface.
+	 */
+
+}

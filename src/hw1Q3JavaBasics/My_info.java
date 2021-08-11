@@ -13,7 +13,8 @@ public class My_info {
 		System.out.print("java is an object-oriented programming language ");
 		System.out.println("which developed by James Gosling and colleagues at Sun Microsystems in early 1990s ");
 		System.out.println("Eclips is an IDE. IDE stands for Integrated Development Environment");
-		System.out.println("inside the java project JRE stand for java Runtime Environment which help Compilation and run the program");
+		System.out.println(
+				"inside the java project JRE stand for java Runtime Environment which help Compilation and run the program");
 		System.out.println("In java main method is entry point ");
 		System.out.println("In java there is 4 types of access modifier. They are:");
 		System.out.println("      1/ public.");

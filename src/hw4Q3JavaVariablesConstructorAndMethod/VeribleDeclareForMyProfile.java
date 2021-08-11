@@ -1,10 +1,10 @@
 package hw4Q3JavaVariablesConstructorAndMethod;
 
 public class VeribleDeclareForMyProfile {
-	
+
 	public static void main(String[] args) {
-		
-		MyProfile fatema = new MyProfile() ;
+
+		MyProfile fatema = new MyProfile();
 		fatema.name = "Fatema Khaleda";
 		fatema.sex = 'F';
 		fatema.age = 28;
@@ -18,12 +18,11 @@ public class VeribleDeclareForMyProfile {
 		fatema.height = 65;
 		fatema.inUSA = true;
 		fatema.yearsOfLiveInUsa = 9;
-		
+
 		fatema.myProfile();
 		System.out.println("________________________________________________");
-		
-		
-		MyProfile nayon = new MyProfile() ;
+
+		MyProfile nayon = new MyProfile();
 		nayon.name = "Nayon Sarker";
 		nayon.sex = 'M';
 		nayon.age = 27;
@@ -37,11 +36,10 @@ public class VeribleDeclareForMyProfile {
 		nayon.height = 68;
 		nayon.inUSA = true;
 		nayon.yearsOfLiveInUsa = 5;
-		
+
 		nayon.myProfile();
 		System.out.println("________________________________________________");
-		
-		
+
 	}
 
 }

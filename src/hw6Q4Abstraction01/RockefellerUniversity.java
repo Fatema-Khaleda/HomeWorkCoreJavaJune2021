@@ -21,30 +21,28 @@ How many inheritances is possible by a regular Class?
 Use the above regular Classes to answer my questions.  */
 
 package hw6Q4Abstraction01;
+
 //regular Class created
 public class RockefellerUniversity {
-	
+
 	/*
-	public abstract void maths() ;/abstract method
-		we can not create abstract class in regular class. we can create abstract method only in abstract class
-*/
-	
+	 * public abstract void maths() ;/abstract method we can not create abstract
+	 * class in regular class. we can create abstract method only in abstract class
+	 */
+
 	public void statistics() {
 		System.out.println("this comment is from regular class RockefellerUniversity and regular method statistics");
 	}
-	
-	/* Questions:
-	 1/how many keywords are used for the inheritance for a regular Class?  
-	 ans:2 extend and implements
-	 
-	 2/Can a regular Class inherit other Abstract Class or regular class or interface?  
-	 ans: YES, Only one abstract or regular class.
-	 
-	 3/How many inheritances is possible by a regular Class?
-	 ans:Only one abstract or regular class and multiple Interface.
-	   */
-	
-	
-	
-	
+
+	/*
+	 * Questions: 1/how many keywords are used for the inheritance for a regular
+	 * Class? ans:2 extend and implements
+	 * 
+	 * 2/Can a regular Class inherit other Abstract Class or regular class or
+	 * interface? ans: YES, Only one abstract or regular class.
+	 * 
+	 * 3/How many inheritances is possible by a regular Class? ans:Only one abstract
+	 * or regular class and multiple Interface.
+	 */
+
 }

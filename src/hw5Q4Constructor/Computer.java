@@ -9,18 +9,18 @@
 package hw5Q4Constructor;
 
 public class Computer {
-	
+
 	public String Brand;
 	public String Model;
 	public String OperatingSystem;
 	public int price;
 	public boolean madeInUsa;
 	public char grade;
-	
-	public Computer() { //Declare default constructor
+
+	public Computer() { // Declare default constructor
 		System.out.println(" This in my Default constructor");
 	}
-	
+
 	public Computer(String Brand, String Model, String OperatingSystem, int price, boolean madeInUsa, char grade) {
 		this.Brand = Brand;
 		this.Model = Model;
@@ -28,31 +28,30 @@ public class Computer {
 		this.price = price;
 		this.madeInUsa = madeInUsa;
 		this.grade = grade;
-		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " +
-				OperatingSystem +"\n Price : $" + price + "\n Made in USA :" + madeInUsa + "\n Grade : " + grade);
-				
-}
-	
+		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " + OperatingSystem
+				+ "\n Price : $" + price + "\n Made in USA :" + madeInUsa + "\n Grade : " + grade);
+
+	}
+
 	public Computer(String Brand) {
 		this.Brand = Brand;
-		System.out.println("My Computer Brand Name is: "+ Brand);
+		System.out.println("My Computer Brand Name is: " + Brand);
 	}
-	
-	public Computer(String Brand, String Model, String OperatingSystem ) {
+
+	public Computer(String Brand, String Model, String OperatingSystem) {
 		this.Brand = Brand;
 		this.Model = Model;
 		this.OperatingSystem = OperatingSystem;
-		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " +
-				OperatingSystem);
+		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " + OperatingSystem);
 	}
-	
+
 	public Computer(String Brand, String Model, String OperatingSystem, int price, boolean madeInUsa) {
 		this.Brand = Brand;
 		this.Model = Model;
 		this.OperatingSystem = OperatingSystem;
 		this.price = price;
 		this.madeInUsa = madeInUsa;
-		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " +
-				OperatingSystem +"\n Price : $" + price + "\n Made in USA :" + madeInUsa);
+		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " + OperatingSystem
+				+ "\n Price : $" + price + "\n Made in USA :" + madeInUsa);
 	}
 }

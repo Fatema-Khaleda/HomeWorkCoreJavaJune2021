@@ -16,18 +16,18 @@ package hw6Q4Abstraction01;
 public class NYUniversity {
 
 	/*
-	public abstract void anthropology();//abstract method
-		we can not create abstract class in regular class. we can create abstract method only in abstract class
-		*/
-	
-	public void physics() { //non-abstract method
-		
+	 * public abstract void anthropology();//abstract method we can not create
+	 * abstract class in regular class. we can create abstract method only in
+	 * abstract class
+	 */
+
+	public void physics() { // non-abstract method
+
 		System.out.println("this comment is from regular class NYUniversity and regular method physics");
 	}
-	
-	public NYUniversity() { //default Constructor
-		
+
+	public NYUniversity() { // default Constructor
+
 	}
-	
 
 }

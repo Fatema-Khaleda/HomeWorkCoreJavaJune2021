@@ -18,11 +18,12 @@ package hw6Q4Abstraction01;
 public class ColumbiaUniversity {
 
 	/*
-	public abstract void chemistry();   //abstract method
-		we can not create abstract class in regular class. we can create abstract method only in abstract class
-		*/
-	
-	public void biology() { //non-abstract method
+	 * public abstract void chemistry(); //abstract method we can not create
+	 * abstract class in regular class. we can create abstract method only in
+	 * abstract class
+	 */
+
+	public void biology() { // non-abstract method
 		System.out.println(" this comment is from regular class ColumbiaUniversity and regular method");
 	}
 

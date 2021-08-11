@@ -9,13 +9,15 @@ one is abstract and another one is non abstract name --
 Print something inside the non abstract or implemented method .  */
 
 package hw6Q4Abstraction01;
+
 //abstract class created
 public abstract class EngineeringSchool {
-	
+
 	public abstract void mechanicalLab(); // abstract methods
-	
+
 	public void computerLab() {// non-abstract methods
-		System.out.println(" this comments is from abstract class \"EngineeringSchool\" and non abstact mechod computerLab ");
-		
+		System.out.println(
+				" this comments is from abstract class \"EngineeringSchool\" and non abstact mechod computerLab ");
+
 	}
 }

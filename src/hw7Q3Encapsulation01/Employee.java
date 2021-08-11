@@ -15,45 +15,44 @@ package hw7Q3Encapsulation01;
 
 //class created
 public class Employee {
-	
-	//declare some private variable:
-	
+
+	// declare some private variable:
+
 	private String Name;
 	private int age;
 	private char sex;
 	private boolean usCitizen;
-	
-	public String getName() { //getter method
+
+	public String getName() { // getter method
 		return Name;
 	}
-	
-	public void setName(String name) { //setter method
+
+	public void setName(String name) { // setter method
 		this.Name = name;
 	}
-	 
-	public int getAge() {//getter method
+
+	public int getAge() {// getter method
 		return age;
 	}
-	
-	public void setAge( int age) {//setter method
+
+	public void setAge(int age) {// setter method
 		this.age = age;
 	}
-	
-	public char getSex () {//getter method
+
+	public char getSex() {// getter method
 		return sex;
 	}
-	
-	public void setSex(char sex) {//setter method
+
+	public void setSex(char sex) {// setter method
 		this.sex = sex;
 	}
-	
-	public boolean isUsCitizen() {//getter method
+
+	public boolean isUsCitizen() {// getter method
 		return usCitizen;
 	}
-	
+
 	public void setUsCitizen(boolean usCitizen) {
 		this.usCitizen = usCitizen;
 	}
-	
 
 }

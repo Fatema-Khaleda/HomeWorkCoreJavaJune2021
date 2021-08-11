@@ -10,7 +10,6 @@
  *  So, Total 2 outcome is expecting from the test class. Organize your code. Push in the github.
  *   Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class)*/
 
-
 package hw5Q3variableAndMethod;
 
 public class Computer {
@@ -21,15 +20,11 @@ public class Computer {
 	public int price;
 	public boolean madeInUsa;
 	public char grade;
-	
-	
-	public void configuration(){ //This is from Configuration method
-		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " +
-	OperatingSystem +"\n Price : $" + price + "\n Made in USA :" + madeInUsa + "\n Grade : " + grade);
-	
-	
-	}
+
+	public void configuration() { // This is from Configuration method
+		System.out.println(" My Brand : " + Brand + "\n Model: " + Model + "\n Operating system: " + OperatingSystem
+				+ "\n Price : $" + price + "\n Made in USA :" + madeInUsa + "\n Grade : " + grade);
 
 	}
 
-
+}
