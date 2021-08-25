@@ -1,0 +1,5 @@
+package java_oop_exam;
+
+public class Iphone1 {
+
+}
