@@ -60,6 +60,38 @@ public class DaynamicXpath {
 	 * (iii)h1 tag ://h1[contains(@class,'css-4rbku5 css-901oao r-cqee49 r-1ui5ee8 r-vw2c0br-16krg75 r-xnfwke r-crgep1 r-t60dpp')]
 	 * 
 	 * 
+	 * 
+	 * 
+	 * 
+	 * I AM ALSO INTARESTED IN RETAIN PATH. THEREFOR I ALSO DID FOR RETAIL:
+	 * 
+	 * 1/Macy’s :
+	 * Source:https://www.macys.com
+	 * (i) search field : //input[@id='globalSearchInputField']
+	 * (ii) submit button : //button[@id='searchSubmit']
+	 * (iii) menu bar : //div[@class='selectedMenuButton'] 
+	 * (iv) shop by department bar : //span[@id='shopByDepartmentLabelText']
+	 * 
+	 * 2/H&M :
+	 * Source:https://ww2.hm.com
+	 * (i) search field : //input[@id='main-search']
+	 * (ii) submit button : //button[@class='menu__search_submit']
+	 * (iii) logo : //a[@class='menu__hm']
+	 * (iv)h1 tag : //h1[contains(@class,'logo hide-content-medium-screen')]
+	 * 
+	 * 3/Adidas
+	 * Source:https://www.adidas.com
+	 * (i) search field : //input[@class='searchinput___zXLAR']
+	 * (ii)logo : //a[@data-auto-id='logo']
+	 * (iii) account login id :  //input[@id='login-email']
+	 * (iv) account login password : //input[@id='login-password']
+	 * 
+	 * 4/ Nike
+	 * Source:https://www.nike.com
+	 * (i) search field : //input[@id='VisualSearchInput']
+	 * (ii) submit button : //button[@class='pre-search-btn ripple']
+	 * (iv)h1 tag : //h1[contains(@class,'wall-header__title css-hrsjq4 css-7m6ucd css-yj4gxb')]
+	 * 
 	 */
 
 }
