@@ -10,8 +10,7 @@ public class DaynamicXpath {
 	 * (i)search field : //input[@id='search-desktop'] 
 	 * (ii) submit button ://button[@id='search__button-desktop'] 
 	 * (iii) logo ://img[@alt='UnitedHealthcare'] 
-	 * (iv) logo : //a[@class='org-logo
-	 * position-relative ml-2 flex justify-center' and @target='_self']
+	 * (iv) logo : //a[@class='org-logozposition-relative ml-2 flex justify-center' and @target='_self']
 	 *  (v) h1 tag ://h1[contains(text(),'Contact us')]
 	 * 
 	 * 2/ Blue cross blue shield:
